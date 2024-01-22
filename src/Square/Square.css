@@ -1,22 +1,27 @@
-.square-box{
-    width: 150px;
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
+.square-m {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #ea3737;
+    margin: 1px;
 }
 
-.square {
+.square-red {
     display: block;
-    width: 20px;
-    height: 20px;
-    background: gray;
+    width: 40px;
+    height: 40px;
+    background: url("https://www.pngall.com/wp-content/uploads/2016/05/Ok-PNG-Clipart.png");
+    background-size: cover;
     margin: 1px;
+    border-radius: 10px;
+    z-index: 10000;
 }
 
 .square-dark {
     display: block;
-    width: 20px;
-    height: 20px;
-    background: black;
+    width: 40px;
+    height: 40px;
+    background: #1e1b1b;
     margin: 1px;
+    border-radius: 10px;
 }

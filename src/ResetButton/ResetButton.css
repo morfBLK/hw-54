@@ -1,0 +1,12 @@
+.reset-btn {
+    border: none;
+    width: 70px;
+    height: 40px;
+    background: green;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.reset-btn:active {
+    background: red;
+}

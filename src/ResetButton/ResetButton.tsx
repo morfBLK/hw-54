@@ -1,4 +1,5 @@
 import React from "react";
+import './ResetButton.css';
 
 interface Props {
   onClickBtn: React.MouseEventHandler;
@@ -7,7 +8,7 @@ interface Props {
 const ResetButton:React.FC<Props> = props => {
   return (
     <div>
-      <button onClick={props.onClickBtn}>Reset</button>
+      <button className='reset-btn' onClick={props.onClickBtn}>Reset</button>
     </div>
   );
 };

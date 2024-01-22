@@ -1,0 +1,11 @@
+.deck-square {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px;
+    background: rgb(218, 217, 125);
+    border-radius: 15px;
+    margin-top: 60px;
+}

@@ -8,12 +8,16 @@ interface Props {
 }
 
 const Square: React.FC<Props> =(props)=> {
-  let className = 'square';
+  let className = 'square-m';
   if (props.square.clicked){
+    className = 'square-red';
+  } else if (props.square.clicked) {
     className = 'square-dark';
   }
   return (
-    <div className={className} onClick={() => props.onClicked(props.square.id)}></div>
+    <div className={className} onClick={() =>
+      props.onClicked(props.square.id)}>
+    </div>
   );
 };
 
